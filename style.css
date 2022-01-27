@@ -1,0 +1,151 @@
+header{
+    background-image: url('images/img-1.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: initial;
+    background-repeat: no-repeat;
+}
+.main-nav ul li a{
+    color: #fff !important;
+}
+nav a{
+    text-decoration: underline !important;
+}
+.bg-text img{
+    display: block;
+    margin: 0 auto;
+    padding-top:70px ;
+}
+.one-bg{
+    background-image: url('images/Bg1.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: revert;
+    background-repeat: no-repeat;
+}
+.one{
+    padding: 30px 0px;
+}
+.one .relative{
+    position: relative;
+}
+.one .absolute{
+    position:absolute;
+    top: 126%;
+    left: 15%;
+    border: 0;
+}
+.carousel{
+    background-image: url('images/Bg3.png');
+}
+.testimonial{
+    padding: 30px 0px 0px 0px;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+background-color: #fff!important;
+}
+.owl-dots .owl-dot:hover span {
+    background-color: #A0B0BA !important;
+}
+.two{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding: 30px 0px;
+}
+.two p{
+    margin-bottom: 0px;
+}
+.two .relative{
+    position: relative;
+}
+.two .absolute{
+    position:absolute;
+    top: 267%;
+    left: 17%;
+    border: 0;
+}
+.two-text{
+    display: flex;
+    align-items: center;
+}
+.mountain{
+    background-color: #3F4E66;
+}
+.mountain-flex{
+    display: flex;
+}
+.mountain-flex a{
+    margin-right: 20px;
+    color: gray;
+}
+.mountain-flex a:hover{
+    background-color: gray;
+    color: #3F4E66;
+}
+.schedule{
+    background-image: url('images/img-2.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.schedule-heading{
+    display: inline-block;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px 40px;
+}
+.schedule-heading h3{
+    color:  #3F4E66;
+}
+.schedule .container{
+padding: 40px 0px 0px 0px;
+}
+.schedule-flex{
+    display: flex;
+}
+.schedule-flex h6{
+    margin-right: 10px;
+}
+.footer{
+    background-color:  #3F4E66;
+    padding: 20px 0px;
+}
+.footer-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-flex p{
+    color: #61759E;
+}
+
+/* media-quires */
+
+@media(max-width: 820px) {
+    .bg-text img{
+        width: 100%;
+    }
+    .one .absolute{
+        position:initial;
+    }
+    .one-bg{
+        background-position: top;
+        background-size: auto;
+    }
+    .two .absolute{
+        position:initial;
+    }
+    .two{
+        grid-template-columns: 1fr;
+    }
+    .schedule-heading{
+        margin: 0px 20px;
+    }
+    .footer-flex{
+        flex-direction: column;
+        gap:15px;
+    }
+}
